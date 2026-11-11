@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Aquatic's Peixes Ornamentais · Aquários em Bragança Paulista desde 1985</title>
+<meta name="description" content="Aquatic's Peixes Ornamentais: peixes de água doce e salgada, aquários, plantas naturais, produtos e manutenção de aquários e tanques. Desde 1985 na R. Cel. Teófilo Leme, 479, Bragança Paulista.">
+<meta name="theme-color" content="#061428">
+<meta property="og:title" content="Aquatic's Peixes Ornamentais · desde 1985">
+<meta property="og:description" content="Um mundo inteiro cabe no seu aquário. Peixes, aquários, plantas e manutenção em Bragança Paulista.">
+<meta property="og:image" content="https://images.unsplash.com/photo-1613779907266-f85db34edae5?w=1200&q=80">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,700;1,9..144,500;1,9..144,700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"PetStore","name":"Aquatic's Peixes Ornamentais","foundingDate":"1985",
+"address":{"@type":"PostalAddress","streetAddress":"R. Cel. Teófilo Leme, 479","addressLocality":"Bragança Paulista","addressRegion":"SP","postalCode":"12900-005","addressCountry":"BR"},
+"telephone":"+55 11 97632-6691","sameAs":["https://www.instagram.com/aquaticspeixesornamentais/"]}
+</script>
+<style>
+:root{
+  --abyss:#04101F; --deep:#061A33; --navy:#0B2A4E; --ocean:#11446F;
+  --aqua:#38C7E8; --aqua-2:#7FE0F4; --aqua-soft:#DDF6FC;
+  --gold:#E3AA5C; --gold-2:#F5CF8E; --gold-deep:#A86B25;
+  --coral:#FF7B5C; --leaf:#5BC48A;
+  --paper:#F3F8FA; --ink:#0B1B2E; --muted:#56687D;
+  --r:22px; --r-lg:34px;
+  --shadow:0 18px 50px -20px rgba(4,16,31,.45);
+  --ease:cubic-bezier(.2,.8,.2,1);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{font-family:"Plus Jakarta Sans",system-ui,sans-serif;color:var(--ink);background:var(--paper);line-height:1.55;overflow-x:hidden}
+img{display:block;max-width:100%}
+a{color:inherit}
+.wrap{width:min(1180px,100% - 40px);margin-inline:auto}
+h1,h2,h3{font-family:Fraunces,Georgia,serif;font-weight:700;line-height:1.02;letter-spacing:-.02em}
+h2{font-size:clamp(2.1rem,5vw,3.6rem)}
+h2 em,h1 em{font-style:italic;font-weight:500;color:var(--gold)}
+.eyebrow{display:inline-flex;align-items:center;gap:10px;font-weight:700;font-size:.78rem;letter-spacing:.16em;text-transform:uppercase;color:var(--ocean);margin-bottom:16px}
+.eyebrow::before{content:"";width:26px;height:2px;background:currentColor;border-radius:2px}
+.sub{font-size:1.1rem;color:var(--muted);max-width:56ch;margin-top:16px}
+.sec{padding:clamp(80px,11vw,140px) 0;position:relative}
+.dark{background:var(--deep);color:#EAF6FB}
+.dark .sub{color:#A9C3D6}
+.dark .eyebrow{color:var(--aqua)}
+
+/* buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:15px 24px;border-radius:999px;font:700 1rem "Plus Jakarta Sans",system-ui,sans-serif;text-decoration:none;border:0;cursor:pointer;transition:transform .25s var(--ease),box-shadow .25s,background .25s;white-space:nowrap}
+.btn:hover{transform:translateY(-2px)}
+.btn:active{transform:translateY(0) scale(.98)}
+.btn svg{width:20px;height:20px;flex:none}
+.btn-gold{background:linear-gradient(180deg,var(--gold-2),var(--gold));color:#2B1A06;box-shadow:0 10px 30px -10px rgba(227,170,92,.8)}
+.btn-wa{background:#25D366;color:#06311A;box-shadow:0 10px 30px -12px rgba(37,211,102,.8)}
+.btn-ghost{background:rgba(255,255,255,.08);color:#fff;box-shadow:inset 0 0 0 1.5px rgba(255,255,255,.28)}
+.btn-line{background:#fff;color:var(--ink);box-shadow:inset 0 0 0 1.5px #D3E1EA}
+.btn-sm{padding:10px 18px;font-size:.92rem}
+.cta-row{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}
+
+/* nav */
+.nav{position:fixed;inset:0 0 auto;z-index:50;transition:background .35s,box-shadow .35s,padding .35s;padding:18px 0}
+.nav.solid{background:rgba(6,26,51,.82);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);box-shadow:0 1px 0 rgba(255,255,255,.08);padding:10px 0}
+.bar{display:flex;align-items:center;justify-content:space-between;gap:16px}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:#fff}
+.brand .mark{width:46px;height:46px;flex:none}
+.brand b{font-family:Fraunces,serif;font-size:1.25rem;letter-spacing:.02em;display:block;line-height:1}
+.brand small{display:block;font-size:.66rem;letter-spacing:.2em;color:var(--aqua-2);font-weight:700;margin-top:4px}
+.nav-links{display:flex;gap:28px}
+.nav-links a{color:#CFE6F2;text-decoration:none;font-weight:600;font-size:.95rem;position:relative}
+.nav-links a::after{content:"";position:absolute;left:0;right:0;bottom:-6px;height:2px;background:var(--gold);transform:scaleX(0);transition:transform .3s var(--ease);transform-origin:left}
+.nav-links a:hover::after{transform:scaleX(1)}
+@media(max-width:860px){.nav-links{display:none}}
+@media(max-width:480px){.brand small{letter-spacing:.1em;font-size:.6rem}.brand b{font-size:1.1rem}.brand .mark{width:40px;height:40px}}
+
+/* hero */
+.hero{position:relative;min-height:100svh;display:flex;align-items:center;overflow:hidden;color:#fff;
+  background:radial-gradient(120% 80% at 70% 0%,#15507E 0%,#0B2A4E 38%,#061A33 70%,#04101F 100%)}
+#tank{position:absolute;inset:0;width:100%;height:100%;z-index:1;cursor:crosshair;touch-action:pan-y}
+.rays{position:absolute;inset:-20% -10% 0;z-index:0;pointer-events:none;opacity:.55;
+  background:repeating-linear-gradient(100deg,transparent 0 60px,rgba(127,224,244,.07) 60px 90px,transparent 90px 170px);
+  mask-image:linear-gradient(180deg,#000 0%,transparent 75%);-webkit-mask-image:linear-gradient(180deg,#000 0%,transparent 75%);
+  animation:rays 14s ease-in-out infinite alternate}
+@keyframes rays{to{transform:translateX(-80px) skewX(-4deg)}}
+.sand{position:absolute;left:0;right:0;bottom:0;height:120px;z-index:2;pointer-events:none}
+.plants{position:absolute;bottom:0;z-index:2;pointer-events:none;width:clamp(120px,18vw,240px)}
+.plants path{transform-origin:bottom center;animation:sway 6s ease-in-out infinite alternate}
+.plants path:nth-child(2n){animation-duration:7.5s;animation-delay:-2s}
+.plants path:nth-child(3n){animation-duration:5.2s;animation-delay:-1s}
+@keyframes sway{from{transform:rotate(-3deg)}to{transform:rotate(4deg)}}
+.hero-inner::before{content:"";position:absolute;z-index:-1;left:-60px;top:80px;bottom:110px;width:min(760px,100vw);background:radial-gradient(closest-side,rgba(4,16,31,.55),transparent);pointer-events:none}
+.hero-inner{position:relative;z-index:3;pointer-events:none;padding:130px 0 150px}
+.hero-inner .cta-row,.hero-inner a{pointer-events:auto}
+.kicker{display:inline-flex;align-items:center;gap:10px;padding:8px 16px 8px 8px;border-radius:999px;background:rgba(255,255,255,.08);box-shadow:inset 0 0 0 1px rgba(255,255,255,.16);font-weight:600;font-size:.88rem;color:#D8EEF7;backdrop-filter:blur(6px)}
+.kicker i{font-style:normal;background:var(--gold);color:#2B1A06;font-weight:800;border-radius:999px;padding:3px 10px;font-size:.78rem}
+.hero h1{font-size:clamp(2.9rem,8.4vw,6.6rem);margin-top:24px;max-width:13ch}
+.hero h1 .w{display:inline-block;white-space:nowrap}
+.hero h1 .ch{display:inline-block;opacity:0;transform:translateY(.5em) rotate(6deg);animation:rise .8s var(--ease) forwards}
+@keyframes rise{to{opacity:1;transform:none}}
+.lead{font-size:clamp(1.05rem,1.6vw,1.25rem);color:#BCD6E6;max-width:46ch;margin-top:22px}
+.lead b{color:#fff}
+.feed-hint{position:absolute;z-index:3;right:clamp(20px,5vw,70px);bottom:150px;display:flex;align-items:center;gap:10px;color:#BCE9F6;font-size:.88rem;font-weight:600;background:rgba(4,16,31,.45);padding:10px 16px;border-radius:999px;box-shadow:inset 0 0 0 1px rgba(127,224,244,.25);pointer-events:none;transition:opacity .6s}
+.feed-hint .dot{width:10px;height:10px;border-radius:50%;background:var(--gold);box-shadow:0 0 0 0 rgba(227,170,92,.7);animation:ping 1.6s infinite}
+@keyframes ping{70%{box-shadow:0 0 0 12px rgba(227,170,92,0)}100%{box-shadow:0 0 0 0 rgba(227,170,92,0)}}
+.scroll-cue{position:absolute;z-index:3;left:50%;bottom:28px;transform:translateX(-50%);width:26px;height:42px;border-radius:14px;box-shadow:inset 0 0 0 2px rgba(255,255,255,.4)}
+.scroll-cue::after{content:"";position:absolute;left:50%;top:9px;width:4px;height:8px;margin-left:-2px;border-radius:2px;background:#fff;animation:cue 1.8s infinite}
+@keyframes cue{50%{transform:translateY(10px);opacity:.2}}
+@media(max-width:700px){.feed-hint{left:20px;right:auto;bottom:96px}.scroll-cue{display:none}}
+
+/* depth gauge */
+.gauge{position:fixed;right:18px;top:50%;transform:translateY(-50%);z-index:40;height:220px;width:44px;display:flex;flex-direction:column;align-items:center;pointer-events:none;opacity:0;transition:opacity .5s}
+.gauge.on{opacity:1}
+.gauge .track{position:relative;flex:1;width:2px;background:linear-gradient(var(--aqua-2),var(--navy));border-radius:2px}
+.gauge .tick{position:absolute;left:-4px;width:10px;height:1px;background:rgba(56,199,232,.6)}
+.gauge .fish{position:absolute;left:50%;top:0;width:26px;height:14px;transform:translate(-50%,-50%) rotate(90deg);transition:top .15s linear}
+.gauge .depth{margin-top:10px;font:800 .72rem "Plus Jakarta Sans",system-ui,sans-serif;color:var(--ocean);background:#fff;padding:4px 8px;border-radius:8px;box-shadow:0 4px 14px -6px rgba(4,16,31,.4);white-space:nowrap}
+@media(max-width:860px){.gauge{display:none}}
+
+/* stats strip */
+.strip{background:var(--deep);color:#fff;position:relative;z-index:4}
+.strip .wrap{display:grid;grid-template-columns:repeat(4,1fr);gap:0;border-top:1px solid rgba(255,255,255,.08)}
+.stat{padding:34px 22px;border-right:1px solid rgba(255,255,255,.08)}
+.stat:last-child{border-right:0}
+.stat b{font-family:Fraunces,serif;font-size:clamp(2rem,4vw,3rem);display:block;line-height:1;color:var(--gold-2)}
+.stat > span{display:block;margin-top:8px;color:#A9C3D6;font-size:.95rem}
+@media(max-width:760px){.strip .wrap{grid-template-columns:1fr 1fr}.stat:nth-child(2){border-right:0}.stat:nth-child(-n+2){border-bottom:1px solid rgba(255,255,255,.08)}}
+
+/* store bento */
+.bento{display:grid;grid-template-columns:repeat(12,1fr);grid-auto-rows:210px;gap:16px;margin-top:50px}
+.tile{position:relative;border-radius:var(--r);overflow:hidden;background:var(--navy);color:#fff;isolation:isolate;box-shadow:var(--shadow)}
+.tile img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform 1.2s var(--ease);z-index:-2}
+.tile::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(4,16,31,0) 35%,rgba(4,16,31,.86) 100%)}
+.tile:hover img{transform:scale(1.07)}
+.tile .txt{position:absolute;left:22px;right:22px;bottom:20px}
+.tile h3{font-size:1.55rem}
+.tile p{color:#C8DCE8;font-size:.95rem;margin-top:6px;max-width:38ch}
+.tile .tag{position:absolute;top:16px;left:16px;font-size:.72rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;background:rgba(255,255,255,.14);backdrop-filter:blur(8px);padding:6px 11px;border-radius:999px}
+.t1{grid-column:span 7;grid-row:span 2}.t2{grid-column:span 5}.t3{grid-column:span 5}
+.t4{grid-column:span 4}.t5{grid-column:span 4}.t6{grid-column:span 4}
+.tile.plain{background:linear-gradient(150deg,var(--gold-2),var(--gold) 60%,var(--gold-deep));color:#2B1A06}
+.tile.plain::before{display:none}
+.tile.plain p{color:#4A3311}
+.tile.plain .big{font-family:Fraunces,serif;font-size:3.4rem;line-height:1;position:absolute;top:20px;right:22px;opacity:.9}
+@media(max-width:900px){.bento{grid-template-columns:1fr 1fr;grid-auto-rows:190px}.t1{grid-column:span 2;grid-row:span 2}.t2,.t3,.t4,.t5,.t6{grid-column:span 1}}
+@media(max-width:560px){.bento{grid-template-columns:1fr}.t1,.t2,.t3,.t4,.t5,.t6{grid-column:span 1}.t1{grid-row:span 2}}
+
+/* vitrine flip cards */
+.vit-head{display:flex;justify-content:space-between;align-items:end;gap:24px;flex-wrap:wrap}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:50px}
+@media(max-width:900px){.cards{grid-template-columns:1fr 1fr}}
+@media(max-width:560px){.cards{grid-template-columns:1fr}}
+.flip{perspective:1400px;height:400px;cursor:pointer;outline:none}
+.flip .in{position:relative;width:100%;height:100%;transition:transform .8s var(--ease);transform-style:preserve-3d}
+.flip.on .in{transform:rotateY(180deg)}
+.flip:focus-visible .in{box-shadow:0 0 0 3px var(--aqua);border-radius:var(--r)}
+.face{position:absolute;inset:0;border-radius:var(--r);overflow:hidden;backface-visibility:hidden;-webkit-backface-visibility:hidden;box-shadow:var(--shadow)}
+.front{background:var(--navy);color:#fff}
+.front img{width:100%;height:100%;object-fit:cover}
+.front::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(4,16,31,0) 40%,rgba(4,16,31,.9))}
+.front .txt{position:absolute;z-index:2;left:22px;right:22px;bottom:20px}
+.front small{font-weight:700;letter-spacing:.12em;font-size:.72rem;color:var(--aqua-2);text-transform:uppercase}
+.front h3{font-size:1.75rem;margin-top:6px}
+.front .turn{position:absolute;z-index:2;top:16px;right:16px;width:40px;height:40px;border-radius:50%;background:rgba(255,255,255,.16);backdrop-filter:blur(8px);display:grid;place-items:center;transition:transform .4s}
+.flip:hover .turn{transform:rotate(180deg)}
+.back{transform:rotateY(180deg);background:linear-gradient(160deg,#fff 0%,var(--aqua-soft) 100%);padding:28px;display:flex;flex-direction:column}
+.back small{font-weight:800;letter-spacing:.12em;font-size:.72rem;color:var(--ocean);text-transform:uppercase}
+.back h3{font-size:1.5rem;margin:8px 0 14px}
+.back ul{list-style:none;display:grid;gap:10px;color:#2A3D52;font-size:.96rem}
+.back li{display:flex;gap:10px}
+.back li::before{content:"";flex:none;width:8px;height:8px;margin-top:8px;border-radius:50%;background:var(--gold)}
+.back .ask{margin-top:auto;padding-top:16px}
+.note{font-size:.85rem;color:var(--muted);margin-top:22px}
+
+/* builder */
+.builder{display:grid;grid-template-columns:1fr 1.05fr;gap:40px;margin-top:50px;align-items:start}
+@media(max-width:900px){.builder{grid-template-columns:1fr}}
+.qs{display:grid;gap:26px}
+.q h4{font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;color:var(--aqua);margin-bottom:12px}
+.opts{display:flex;flex-wrap:wrap;gap:10px}
+.opt{border:0;cursor:pointer;font:600 .98rem "Plus Jakarta Sans",system-ui,sans-serif;color:#DCEFF8;background:rgba(255,255,255,.06);box-shadow:inset 0 0 0 1.5px rgba(255,255,255,.16);padding:12px 18px;border-radius:14px;transition:all .25s var(--ease);display:flex;align-items:center;gap:8px}
+.opt:hover{background:rgba(255,255,255,.12)}
+.opt.sel{background:var(--gold);color:#2B1A06;box-shadow:0 10px 26px -12px rgba(227,170,92,.9)}
+.result{position:relative;border-radius:var(--r-lg);background:linear-gradient(180deg,rgba(56,199,232,.14),rgba(56,199,232,.03));box-shadow:inset 0 0 0 1px rgba(127,224,244,.25);padding:30px;overflow:hidden;min-height:420px}
+.result canvas{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;opacity:.9}
+.result .rc{position:relative;z-index:1}
+.result small{font-weight:800;letter-spacing:.14em;font-size:.72rem;color:var(--aqua-2);text-transform:uppercase}
+.result h3{font-size:clamp(1.6rem,3vw,2.1rem);margin:8px 0 18px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{background:rgba(255,255,255,.1);padding:8px 14px;border-radius:999px;font-weight:600;font-size:.92rem;animation:pop .45s var(--ease) both}
+@keyframes pop{from{opacity:0;transform:translateY(8px) scale(.9)}}
+.kit{margin-top:20px;display:grid;gap:8px;color:#BFD6E4;font-size:.95rem}
+.kit b{color:#fff}
+.result .cta-row{margin-top:24px}
+
+/* maintenance */
+.mnt{display:grid;grid-template-columns:1.1fr 1fr;gap:56px;align-items:center}
+@media(max-width:900px){.mnt{grid-template-columns:1fr}}
+.compare{position:relative;aspect-ratio:4/3.2;border-radius:var(--r-lg);overflow:hidden;box-shadow:var(--shadow);user-select:none;touch-action:pan-y;background:var(--navy)}
+.compare img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.compare .dirty{filter:sepia(.55) hue-rotate(35deg) saturate(1.3) blur(2.5px) brightness(.72) contrast(.9)}
+.compare .clean-wrap{position:absolute;inset:0;clip-path:inset(0 0 0 50%)}
+.compare .handle{position:absolute;top:0;bottom:0;left:50%;width:3px;background:#fff;transform:translateX(-50%);pointer-events:none}
+.compare .knob{position:absolute;top:50%;left:50%;width:54px;height:54px;border-radius:50%;background:#fff;transform:translate(-50%,-50%);display:grid;place-items:center;box-shadow:0 8px 24px rgba(0,0,0,.35)}
+.compare .lbl{position:absolute;top:16px;font-size:.75rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;padding:6px 12px;border-radius:999px;background:rgba(4,16,31,.6);color:#fff;backdrop-filter:blur(6px)}
+.compare .lbl.l{left:16px}.compare .lbl.r{right:16px;background:var(--gold);color:#2B1A06}
+.compare input{position:absolute;inset:0;width:100%;height:100%;opacity:0;cursor:ew-resize}
+.steps{display:grid;gap:16px;margin-top:32px}
+.step{display:flex;gap:18px;align-items:flex-start;padding:18px 20px;border-radius:18px;background:#fff;box-shadow:0 10px 30px -22px rgba(4,16,31,.5)}
+.step .n{flex:none;width:44px;height:44px;border-radius:14px;display:grid;place-items:center;font:700 1.2rem Fraunces,Georgia,serif;background:var(--deep);color:var(--gold-2)}
+.step h4{font-size:1.06rem}
+.step p{color:var(--muted);font-size:.95rem;margin-top:2px}
+
+/* location */
+.loc{display:grid;grid-template-columns:1fr 1.15fr;gap:40px;align-items:stretch;margin-top:50px}
+@media(max-width:900px){.loc{grid-template-columns:1fr}}
+.addr{background:#fff;border-radius:var(--r-lg);padding:32px;box-shadow:var(--shadow);display:flex;flex-direction:column;gap:18px}
+.addr .line{display:flex;gap:14px;align-items:flex-start}
+.addr .ic{flex:none;width:46px;height:46px;border-radius:14px;background:var(--aqua-soft);color:var(--ocean);display:grid;place-items:center}
+.addr .ic svg{width:22px;height:22px}
+.addr h4{font-size:1.05rem}
+.addr p{color:var(--muted);font-size:.96rem}
+.btn-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:auto}
+.map{position:relative;border-radius:var(--r-lg);overflow:hidden;min-height:380px;box-shadow:var(--shadow);background:var(--aqua-soft)}
+.map iframe{position:absolute;inset:0;width:100%;height:100%;border:0;filter:saturate(.9)}
+.map .pin{position:absolute;z-index:2;left:16px;top:16px;display:flex;align-items:center;gap:10px;background:var(--deep);color:#fff;padding:8px 16px 8px 8px;border-radius:999px;font-weight:700;font-size:.9rem;box-shadow:var(--shadow)}
+.map .pin svg{width:32px;height:32px}
+
+/* final */
+.final{position:relative;overflow:hidden;text-align:center;color:#fff;padding:clamp(110px,14vw,170px) 0 clamp(160px,18vw,220px);
+  background:radial-gradient(90% 70% at 50% 100%,#15507E,#061A33 60%,#04101F)}
+.final h2{font-size:clamp(2.6rem,7vw,5.2rem)}
+.final .sub{margin-inline:auto;color:#A9C3D6}
+.final .cta-row{justify-content:center}
+.swimmer{position:absolute;bottom:60px;left:-340px;width:300px;animation:swim 22s linear infinite}
+.swimmer svg{width:100%;animation:bob 3s ease-in-out infinite}
+@keyframes swim{to{transform:translateX(calc(100vw + 400px))}}
+@keyframes bob{50%{transform:translateY(-10px) rotate(-1.5deg)}}
+
+footer{background:var(--abyss);color:#8FA9BD;font-size:.9rem;padding:34px 0}
+footer .row{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;align-items:center}
+footer b{color:#fff}
+footer a{color:var(--aqua-2)}
+
+/* mascot peek */
+.peek{position:fixed;left:14px;bottom:14px;z-index:45;width:150px;cursor:pointer;transform:translateX(-180px);transition:transform .7s var(--ease);-webkit-tap-highlight-color:transparent}
+.peek.on{transform:translateX(0)}
+.peek svg{width:100%;animation:bob 2.8s ease-in-out infinite;filter:drop-shadow(0 10px 16px rgba(4,16,31,.35))}
+.peek.jump svg{animation:flip .7s var(--ease)}
+@keyframes flip{40%{transform:translateY(-34px) rotate(-12deg)}}
+.say{position:absolute;bottom:72px;left:20px;background:#fff;color:var(--ink);font-weight:700;font-size:.88rem;padding:10px 14px;border-radius:16px 16px 16px 4px;box-shadow:var(--shadow);white-space:nowrap;opacity:0;transform:translateY(8px) scale(.9);transition:all .35s var(--ease);pointer-events:none}
+.say.on{opacity:1;transform:none}
+@media(max-width:560px){.peek{width:112px}.say{bottom:56px;font-size:.8rem}}
+
+.fab{position:fixed;right:18px;bottom:18px;z-index:46;width:62px;height:62px;border-radius:50%;background:#25D366;display:grid;place-items:center;box-shadow:0 14px 34px -10px rgba(37,211,102,.9);transition:transform .3s var(--ease)}
+.fab:hover{transform:scale(1.08)}
+.fab svg{width:32px;height:32px}
+.fab::before{content:"";position:absolute;inset:0;border-radius:50%;box-shadow:0 0 0 0 rgba(37,211,102,.6);animation:ping 2.4s infinite}
+
+.toast{position:fixed;left:50%;bottom:96px;z-index:60;transform:translate(-50%,20px);opacity:0;background:var(--deep);color:#fff;font-weight:700;padding:12px 20px;border-radius:999px;transition:all .35s var(--ease);pointer-events:none;box-shadow:var(--shadow)}
+.toast.on{opacity:1;transform:translate(-50%,0)}
+
+.reveal{opacity:0;transform:translateY(34px);transition:opacity .9s var(--ease),transform .9s var(--ease)}
+.reveal.in{opacity:1;transform:none}
+.bubbles{position:absolute;inset:0;pointer-events:none;overflow:hidden}
+.bubbles i{position:absolute;bottom:-20px;border-radius:50%;box-shadow:inset 0 0 0 1.5px rgba(191,241,251,.55);background:radial-gradient(circle at 30% 30%,rgba(255,255,255,.5),transparent 45%);animation:up linear infinite}
+@keyframes up{to{transform:translate(var(--dx,20px),-110vh)}}
+
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition:none!important}
+  .reveal{opacity:1;transform:none}
+  .hero h1 .ch{opacity:1;transform:none}
+}
+</style>
+</head>
+<body>
+
+<!-- SVG symbols -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <linearGradient id="goldG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F7D79B"/><stop offset=".55" stop-color="#E3AA5C"/><stop offset="1" stop-color="#9C5F1E"/>
+    </linearGradient>
+    <pattern id="scales" width="14" height="12" patternUnits="userSpaceOnUse">
+      <path d="M0 12 A7 7 0 0 1 14 12" fill="none" stroke="#8A5214" stroke-width="1.3" opacity=".55"/>
+      <path d="M-7 6 A7 7 0 0 1 7 6 M7 6 A7 7 0 0 1 21 6" fill="none" stroke="#8A5214" stroke-width="1.3" opacity=".55"/>
+    </pattern>
+    <symbol id="arowana" viewBox="0 0 320 110">
+      <!-- tail -->
+      <path d="M40 55 C22 38 10 30 2 26 C8 44 8 66 2 86 C12 80 26 70 40 62 Z" fill="url(#goldG)"/>
+      <path d="M8 34 L34 54 M6 50 L34 57 M6 68 L34 60 M8 80 L34 63" stroke="#8A5214" stroke-width="1.2" opacity=".5"/>
+      <!-- dorsal & anal fins -->
+      <path d="M58 40 C78 22 104 20 122 28 L104 38 Z" fill="url(#goldG)" opacity=".95"/>
+      <path d="M58 70 C80 90 108 90 126 80 L106 70 Z" fill="url(#goldG)" opacity=".95"/>
+      <!-- body -->
+      <path id="aroBody" d="M36 56 C64 32 150 24 226 30 C258 33 284 40 300 47 C294 55 276 64 246 68 C186 76 96 76 36 60 Z" fill="url(#goldG)"/>
+      <path d="M36 56 C64 32 150 24 226 30 C258 33 284 40 300 47 C294 55 276 64 246 68 C186 76 96 76 36 60 Z" fill="url(#scales)"/>
+      <!-- gill + head -->
+      <path d="M244 33 C236 46 236 58 246 68" stroke="#8A5214" stroke-width="2" fill="none" opacity=".6"/>
+      <path d="M300 47 L268 52" stroke="#5A3209" stroke-width="2.2" stroke-linecap="round"/>
+      <circle class="eye" cx="270" cy="41" r="5.2" fill="#1A1206"/><circle cx="271.6" cy="39.4" r="1.7" fill="#fff"/>
+      <!-- barbels -->
+      <path d="M298 46 C306 40 312 34 318 30 M296 48 C306 44 312 40 318 38" stroke="#E3AA5C" stroke-width="2" fill="none" stroke-linecap="round"/>
+      <!-- pectoral -->
+      <path d="M236 64 C228 80 212 88 200 86 C210 80 220 72 228 63 Z" fill="#F5CF8E" opacity=".9"/>
+      <!-- shine -->
+      <path d="M80 44 C130 34 190 32 236 36" stroke="#fff" stroke-width="3" opacity=".35" fill="none" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="logo" viewBox="0 0 100 100">
+      <circle cx="50" cy="50" r="49" fill="#0B2A4E" stroke="#38C7E8" stroke-width="1.5"/>
+      <circle cx="50" cy="50" r="49" fill="url(#logoGlow)"/>
+      <use href="#arowana" x="12" y="24" width="76" height="28"/>
+      <path d="M14 66 Q24 60 34 66 T54 66 T74 66 T94 66" stroke="#38C7E8" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+      <path d="M18 74 Q28 68 38 74 T58 74 T78 74" stroke="#38C7E8" stroke-width="1.6" fill="none" stroke-linecap="round" opacity=".6"/>
+    </symbol>
+    <radialGradient id="logoGlow" cx=".5" cy=".3" r=".7"><stop offset="0" stop-color="#1B5A8A" stop-opacity=".9"/><stop offset="1" stop-color="#061A33" stop-opacity="0"/></radialGradient>
+    <symbol id="wa" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.3 14.2c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .1-1.7-.1-.4-.1-.9-.3-1.5-.6-2.7-1.2-4.4-3.9-4.6-4.1-.1-.2-1.1-1.5-1.1-2.8s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.1.1.3 0 .5l-.3.5-.4.5c-.1.1-.3.3-.1.6.2.3.7 1.2 1.6 1.9 1.1 1 2 1.3 2.3 1.4.3.1.5.1.6-.1l.9-1c.2-.3.4-.2.6-.1l1.9.9c.3.1.5.2.5.3.1.2.1.6-.1 1.1z"/></symbol>
+  </defs>
+</svg>
+
+<!-- NAV -->
+<header class="nav" id="nav">
+  <div class="wrap bar">
+    <a href="#topo" class="brand" aria-label="Aquatic's — início">
+      <svg class="mark"><use href="#logo"/></svg>
+      <span><b>AQUATIC'S</b><small>PEIXES ORNAMENTAIS</small></span>
+    </a>
+    <nav class="nav-links">
+      <a href="#loja">A loja</a>
+      <a href="#vitrine">Vitrine</a>
+      <a href="#monte">Monte seu aquário</a>
+      <a href="#manutencao">Manutenção</a>
+      <a href="#local">Como chegar</a>
+    </nav>
+    <a class="btn btn-wa btn-sm" data-wa="Olá, Aquatic's! Vim pelo site e queria tirar uma dúvida 🐠" href="#" target="_blank" rel="noopener"><svg><use href="#wa"/></svg>WhatsApp</a>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="topo">
+  <div class="rays" aria-hidden="true"></div>
+  <canvas id="tank" aria-label="Aquário interativo: toque na água para alimentar os peixes"></canvas>
+  <svg class="plants" style="left:-10px" viewBox="0 0 240 300" fill="none" aria-hidden="true">
+    <path d="M40 300 C30 220 60 170 40 90" stroke="#2E8B62" stroke-width="12" stroke-linecap="round"/>
+    <path d="M70 300 C80 230 50 180 80 120" stroke="#3FA874" stroke-width="10" stroke-linecap="round"/>
+    <path d="M100 300 C96 250 120 210 108 160" stroke="#5BC48A" stroke-width="8" stroke-linecap="round"/>
+    <path d="M20 300 C10 250 24 220 12 180" stroke="#25704F" stroke-width="9" stroke-linecap="round"/>
+    <path d="M130 300 C134 270 120 250 132 220" stroke="#3FA874" stroke-width="7" stroke-linecap="round"/>
+  </svg>
+  <svg class="plants" style="right:-10px;transform:scaleX(-1)" viewBox="0 0 240 300" fill="none" aria-hidden="true">
+    <path d="M40 300 C30 230 64 180 44 110" stroke="#2E8B62" stroke-width="12" stroke-linecap="round"/>
+    <path d="M74 300 C84 240 54 200 84 150" stroke="#5BC48A" stroke-width="9" stroke-linecap="round"/>
+    <path d="M18 300 C8 260 22 230 12 196" stroke="#25704F" stroke-width="9" stroke-linecap="round"/>
+  </svg>
+  <svg class="sand" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0 70 C200 40 380 90 620 66 C860 42 1080 86 1440 58 L1440 120 L0 120Z" fill="#0E2E52"/>
+    <path d="M0 92 C260 74 520 108 760 90 C1000 72 1220 104 1440 86 L1440 120 L0 120Z" fill="#F3F8FA"/>
+  </svg>
+
+  <div class="wrap hero-inner">
+    <span class="kicker"><i>desde 1985</i>Bragança Paulista · SP</span>
+    <h1 aria-label="Um mundo inteiro cabe no seu aquário.">
+      <span data-split>Um mundo inteiro</span><br>
+      <span data-split>cabe no seu</span> <em data-split>aquário.</em>
+    </h1>
+    <p class="lead">Peixes de <b>água doce e salgada</b>, aquários, plantas naturais e <b>manutenção de aquários e tanques</b>. Quatro décadas ajudando Bragança a montar o aquário dos sonhos.</p>
+    <div class="cta-row">
+      <a class="btn btn-gold" href="#monte">Monte seu aquário</a>
+      <a class="btn btn-ghost" href="#local">Visite a loja</a>
+    </div>
+  </div>
+  <div class="feed-hint" id="feedHint" aria-hidden="true"><span class="dot"></span>Toque na água para alimentar os peixes</div>
+  <div class="scroll-cue" aria-hidden="true"></div>
+</section>
+
+<!-- STATS -->
+<div class="strip">
+  <div class="wrap">
+    <div class="stat"><b data-count="1985" data-plain>1985</b><span>o ano em que tudo começou</span></div>
+    <div class="stat"><b><span data-count="41">0</span> anos</b><span>de experiência em aquarismo</span></div>
+    <div class="stat"><b>Doce + Mar</b><span>água doce e salgada no mesmo lugar</span></div>
+    <div class="stat"><b><span data-count="800">0</span>+</b><span>posts de novidades no Instagram</span></div>
+  </div>
+</div>
+
+<!-- LOJA -->
+<section class="sec" id="loja">
+  <div class="wrap">
+    <div class="reveal">
+      <span class="eyebrow">O que tem na Aquatic's</span>
+      <h2>Do primeiro kinguio<br>ao <em>recife de corais.</em></h2>
+      <p class="sub">Uma loja de aquarismo de verdade: peixes saudáveis, aquários de todos os tamanhos, plantas naturais e tudo o que o seu aquário precisa para ficar bonito por muito tempo.</p>
+    </div>
+    <div class="bento">
+      <article class="tile t1 reveal">
+        <img loading="lazy" src="https://images.unsplash.com/photo-1691387747539-f681c5fa73d9?w=1300&q=75&auto=format&fit=crop" alt="Aquário plantado com peixes">
+        <span class="tag">Água doce</span>
+        <div class="txt"><h3>Água doce</h3><p>Tetras, rasboras, bettas, kinguios, carpas, ciclídeos e muito mais. Variedade que chega toda semana.</p></div>
+      </article>
+      <article class="tile t2 reveal">
+        <img loading="lazy" src="https://images.unsplash.com/photo-1613779907266-f85db34edae5?w=900&q=75&auto=format&fit=crop" alt="Peixe-palhaço em coral">
+        <span class="tag">Marinho</span>
+        <div class="txt"><h3>Marinho</h3><p>Peixes, camarões e invertebrados para aquários de água salgada.</p></div>
+      </article>
+      <article class="tile t3 reveal">
+        <img loading="lazy" src="https://images.unsplash.com/photo-1629998404468-75302f5b9f1c?w=900&q=75&auto=format&fit=crop" alt="Ciclídeos africanos azuis e amarelos">
+        <span class="tag">Ciclídeos africanos</span>
+        <div class="txt"><h3>Ciclídeos africanos</h3><p>Cores de recife, só que de água doce: direto dos lagos Malawi e Tanganica.</p></div>
+      </article>
+      <article class="tile t4 reveal">
+        <img loading="lazy" src="https://images.unsplash.com/photo-1578313097818-dfe8d38aa758?w=800&q=75&auto=format&fit=crop" alt="Aquário plantado pequeno iluminado">
+        <span class="tag">Aquários & plantas</span>
+        <div class="txt"><h3>Aquários e plantas naturais</h3><p>Do nano de mesa ao aquário de sala, com plantas vivas.</p></div>
+      </article>
+      <article class="tile t5 reveal">
+        <img loading="lazy" src="https://images.unsplash.com/photo-1784558126753-e35da5d0171a?w=800&q=75&auto=format&fit=crop" alt="Peixes-oscar nadando">
+        <span class="tag">Jumbo</span>
+        <div class="txt"><h3>Peixes jumbo</h3><p>Oscars, flowerhorns e outros gigantes para quem tem aquário grande.</p></div>
+      </article>
+      <article class="tile t6 plain reveal">
+        <span class="big">🦐</span>
+        <span class="tag" style="background:rgba(43,26,6,.12)">Produtos</span>
+        <div class="txt"><h3>Rações, artêmia e produtos</h3><p>Alimento vivo, condicionadores, filtros e equipamentos. Pergunte o que seu aquário precisa.</p></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- VITRINE -->
+<section class="sec" id="vitrine" style="padding-top:0">
+  <div class="wrap">
+    <div class="vit-head reveal">
+      <div>
+        <span class="eyebrow">Vitrine da semana</span>
+        <h2>Toque no card e<br><em>conheça o peixe.</em></h2>
+      </div>
+      <p class="sub" style="max-width:40ch">Espécies que já passaram pelo nosso Instagram. Curiosidades de verdade, do jeito que a gente conta no balcão.</p>
+    </div>
+    <div class="cards" id="cards"></div>
+    <p class="note">A disponibilidade muda toda semana. Chame no WhatsApp para saber o que chegou.</p>
+  </div>
+</section>
+
+<!-- MONTE SEU AQUÁRIO -->
+<section class="sec dark" id="monte">
+  <div class="bubbles" id="bubbles" aria-hidden="true"></div>
+  <div class="wrap" style="position:relative">
+    <div class="reveal">
+      <span class="eyebrow">Monte seu aquário</span>
+      <h2>Três toques e você tem<br><em>um ponto de partida.</em></h2>
+      <p class="sub">Escolha o tipo, o tamanho e o estilo. A gente sugere os peixes e o kit básico, e você manda a lista direto para a loja.</p>
+    </div>
+    <div class="builder">
+      <div class="qs reveal">
+        <div class="q"><h4>1 · Que tipo de água?</h4><div class="opts" data-q="tipo">
+          <button class="opt sel" data-v="doce">💧 Água doce</button>
+          <button class="opt" data-v="mar">🌊 Marinho</button>
+          <button class="opt" data-v="lago">🪷 Lago / tanque</button>
+        </div></div>
+        <div class="q"><h4>2 · Qual o tamanho?</h4><div class="opts" data-q="tam">
+          <button class="opt" data-v="p">Pequeno · até 40 L</button>
+          <button class="opt sel" data-v="m">Médio · 60 a 150 L</button>
+          <button class="opt" data-v="g">Grande · 200 L ou mais</button>
+        </div></div>
+        <div class="q"><h4>3 · Qual a vibe?</h4><div class="opts" data-q="vibe">
+          <button class="opt sel" data-v="calmo">🌿 Calmo e plantado</button>
+          <button class="opt" data-v="cor">🎨 Colorido e agitado</button>
+          <button class="opt" data-v="star">👑 Um peixe estrela</button>
+        </div></div>
+      </div>
+      <div class="result reveal" aria-live="polite">
+        <canvas id="mini"></canvas>
+        <div class="rc" id="res"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MANUTENÇÃO -->
+<section class="sec" id="manutencao">
+  <div class="wrap mnt">
+    <div class="reveal">
+      <div class="compare" id="compare">
+        <img class="dirty" src="https://images.unsplash.com/photo-1691387824643-227cc84127cf?w=1100&q=75&auto=format&fit=crop" alt="Aquário sem manutenção (ilustração)">
+        <div class="clean-wrap"><img src="https://images.unsplash.com/photo-1691387824643-227cc84127cf?w=1100&q=75&auto=format&fit=crop" alt="Aquário com manutenção"></div>
+        <span class="lbl l">Sem manutenção</span><span class="lbl r">Com a Aquatic's</span>
+        <div class="handle"><div class="knob"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#061A33" stroke-width="2.4" stroke-linecap="round"><path d="M9 6l-6 6 6 6M15 6l6 6-6 6"/></svg></div></div>
+        <input type="range" min="0" max="100" value="50" aria-label="Arraste para comparar antes e depois">
+      </div>
+      <p class="note">Arraste para comparar. Imagem ilustrativa.</p>
+    </div>
+    <div class="reveal">
+      <span class="eyebrow">Manutenção de aquários e tanques</span>
+      <h2>Água cristalina,<br><em>sem dor de cabeça.</em></h2>
+      <p class="sub">Aquário bonito dá trabalho. A gente cuida disso para você, na sua casa, no escritório ou no lago do jardim.</p>
+      <div class="steps">
+        <div class="step"><div class="n">1</div><div><h4>Avaliação</h4><p>Olhamos o aquário, os peixes e a qualidade da água.</p></div></div>
+        <div class="step"><div class="n">2</div><div><h4>Limpeza e ajustes</h4><p>Vidros, filtro, troca parcial de água e correção dos parâmetros.</p></div></div>
+        <div class="step"><div class="n">3</div><div><h4>Rotina combinada</h4><p>Você escolhe a frequência e o aquário fica sempre no ponto.</p></div></div>
+      </div>
+      <div class="cta-row"><a class="btn btn-gold" data-wa="Olá, Aquatic's! Quero um orçamento de manutenção para meu aquário/tanque 🐟" href="#" target="_blank" rel="noopener">Pedir orçamento de manutenção</a></div>
+    </div>
+  </div>
+</section>
+
+<!-- LOCAL -->
+<section class="sec" id="local" style="padding-top:0">
+  <div class="wrap">
+    <div class="reveal">
+      <span class="eyebrow">Como chegar</span>
+      <h2>Vem ver os aquários<br><em>de pertinho.</em></h2>
+      <p class="sub">Foto nenhuma substitui ver o cardume nadando na sua frente. Passa na loja, no Centro de Bragança.</p>
+    </div>
+    <div class="loc">
+      <div class="addr reveal">
+        <div class="line"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg></div>
+          <div><h4>R. Cel. Teófilo Leme, 479</h4><p>Centro · Bragança Paulista – SP · CEP 12900-005</p></div></div>
+        <div class="line"><div class="ic" style="background:#DCF8E7;color:#128C4B"><svg><use href="#wa"/></svg></div>
+          <div><h4>(11) 97632-6691</h4><p>Atendimento pelo WhatsApp: tire dúvidas, veja o que chegou e confirme o horário antes de vir.</p></div></div>
+        <div class="line"><div class="ic" style="background:#FCEFD9;color:var(--gold-deep)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></div>
+          <div><h4>@aquaticspeixesornamentais</h4><p>Novidades, vídeos dos peixes e chegadas da semana.</p></div></div>
+        <div class="btn-grid">
+          <a class="btn btn-gold btn-sm" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=R.%20Cel.%20Te%C3%B3filo%20Leme%2C%20479%20-%20Centro%2C%20Bragan%C3%A7a%20Paulista%20-%20SP%2C%2012900-005">Google Maps</a>
+          <a class="btn btn-line btn-sm" target="_blank" rel="noopener" href="https://waze.com/ul?q=Rua%20Coronel%20Te%C3%B3filo%20Leme%20479%20Bragan%C3%A7a%20Paulista&navigate=yes">Waze</a>
+          <a class="btn btn-wa btn-sm" data-wa="Olá, Aquatic's! Estou indo até a loja, qual o horário de hoje? 🐠" href="#" target="_blank" rel="noopener">WhatsApp</a>
+          <button class="btn btn-line btn-sm" id="copy">Copiar endereço</button>
+        </div>
+      </div>
+      <div class="map reveal">
+        <span class="pin"><svg><use href="#logo"/></svg>A Aquatic's está aqui!</span>
+        <iframe title="Mapa: Aquatic's Peixes Ornamentais" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=R.%20Cel.%20Te%C3%B3filo%20Leme%2C%20479%2C%20Centro%2C%20Bragan%C3%A7a%20Paulista%20-%20SP&z=16&output=embed"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FINAL -->
+<section class="final">
+  <div class="wrap reveal" style="position:relative;z-index:2">
+    <span class="eyebrow" style="color:var(--aqua)">Desde 1985</span>
+    <h2>Seu próximo peixe<br><em>está esperando.</em></h2>
+    <p class="sub">Conta pra gente o aquário que você tem (ou sonha ter) e a gente te ajuda a escolher.</p>
+    <div class="cta-row">
+      <a class="btn btn-wa" data-wa="Olá, Aquatic's! Quero ajuda para escolher peixes para meu aquário 🐠" href="#" target="_blank" rel="noopener"><svg><use href="#wa"/></svg>Chamar no WhatsApp</a>
+      <a class="btn btn-ghost" href="https://www.instagram.com/aquaticspeixesornamentais/" target="_blank" rel="noopener">Ver o Instagram</a>
+    </div>
+  </div>
+  <div class="swimmer" aria-hidden="true"><svg viewBox="0 0 320 110"><use href="#arowana"/></svg></div>
+</section>
+
+<footer>
+  <div class="wrap row">
+    <div style="display:flex;align-items:center;gap:12px"><svg style="width:40px;height:40px"><use href="#logo"/></svg><div><b>Aquatic's Peixes Ornamentais</b><br>Aquários de água doce e salgada · peixes · manutenção · desde 1985</div></div>
+    <div>R. Cel. Teófilo Leme, 479 · Centro · Bragança Paulista – SP<br>WhatsApp (11) 97632-6691 · <a href="https://www.instagram.com/aquaticspeixesornamentais/" target="_blank" rel="noopener">Instagram</a></div>
+  </div>
+</footer>
+
+<!-- depth gauge -->
+<div class="gauge" id="gauge" aria-hidden="true">
+  <div class="track" id="track"><svg class="fish" id="gfish" viewBox="0 0 320 110"><use href="#arowana"/></svg></div>
+  <div class="depth" id="depth">0 m</div>
+</div>
+
+<!-- arowana mascot -->
+<div class="peek" id="peek" role="button" tabindex="0" aria-label="Aruanã: toque para uma dica">
+  <div class="say" id="say">Oi! Eu sou a Aru 🐟</div>
+  <svg viewBox="0 0 320 110"><use href="#arowana"/></svg>
+</div>
+
+<a class="fab" data-wa="Olá, Aquatic's! Vim pelo site 🐠" href="#" target="_blank" rel="noopener" aria-label="Falar no WhatsApp" style="color:#fff"><svg><use href="#wa"/></svg></a>
+<div class="toast" id="toast">Endereço copiado! 🐠</div>
+
+<script>
+(() => {
+  const WA = '5511976326691';
+  const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const waLink = t => `https://wa.me/${WA}?text=${encodeURIComponent(t)}`;
+  document.querySelectorAll('[data-wa]').forEach(a => a.href = waLink(a.dataset.wa));
+
+  /* ---------- hero title letters ---------- */
+  let d = 0;
+  document.querySelectorAll('[data-split]').forEach(el => {
+    el.innerHTML = el.textContent.trim().split(' ').map(w =>
+      '<span class="w">' + [...w].map(c => `<span class="ch" style="animation-delay:${(d++ * 0.035 + 0.15).toFixed(2)}s">${c}</span>`).join('') + '</span>'
+    ).join(' ');
+  });
+
+  /* ---------- nav ---------- */
+  const nav = document.getElementById('nav');
+  const onScrollNav = () => nav.classList.toggle('solid', scrollY > 40);
+
+  /* ---------- reveal ---------- */
+  const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } }), { threshold: .14 });
+  const observe = () => document.querySelectorAll('.reveal:not(.in)').forEach(el => io.observe(el));
+
+  /* ---------- counters ---------- */
+  const cio = new IntersectionObserver(es => es.forEach(e => {
+    if (!e.isIntersecting) return; cio.unobserve(e.target);
+    const el = e.target, to = +el.dataset.count, from = 'plain' in el.dataset ? 1900 : 0, t0 = performance.now(), dur = 1600;
+    const step = t => { const p = Math.min(1, (t - t0) / dur), v = Math.round(from + (to - from) * (1 - Math.pow(1 - p, 3)));
+      el.textContent = 'plain' in el.dataset ? v : v.toLocaleString('pt-BR'); if (p < 1) requestAnimationFrame(step); };
+    reduce ? el.textContent = to : requestAnimationFrame(step);
+  }), { threshold: .6 });
+  document.querySelectorAll('[data-count]').forEach(el => cio.observe(el));
+
+  /* ---------- vitrine cards ---------- */
+  const IMG = id => `https://images.unsplash.com/photo-${id}?w=800&q=75&auto=format&fit=crop`;
+  const species = [
+    { k:'Água doce · fria', n:'Kinguios & Carpas', img:'1750173482965-dd7fec626704',
+      f:['O kinguio foi domesticado na China há mais de mil anos','Gostam de água mais fresca e de filtragem forte','Carpas koi podem viver décadas num lago bem cuidado'] },
+    { k:'Água doce · jumbo', n:'Oscar', img:'1784558126753-e35da5d0171a',
+      f:['Nativo da Amazônia: um peixe bem brasileiro','Famoso por reconhecer o dono e "pedir" comida','Pode passar de 30 cm, então pede aquário grande'] },
+    { k:'Água doce · labirintídeo', n:'Betta fêmea Koi', img:'1538719501547-bc023056a8b6',
+      f:['Bettas respiram ar na superfície graças ao órgão labirinto','O padrão "koi" pode mudar de cor ao longo da vida','Ótimo para aquários pequenos e plantados'] },
+    { k:'Água doce · nano', n:'Rasbora Galaxy', img:'1691387747539-f681c5fa73d9',
+      f:['Descoberta em Mianmar só em 2006','Tem cerca de 2 cm e corpo pintado como uma galáxia','Fica linda em cardume num aquário plantado'] },
+    { k:'Marinho · invertebrado', n:'Camarões Lysmata', img:'1703319959677-b8dd4f14c80e',
+      f:['Camarões-limpadores, como o Lysmata grabhami do nosso Instagram','Tiram parasitas dos peixes, que chegam a fazer "fila"','Clássico de aquário marinho de recife'] },
+    { k:'Água doce · lagos africanos', n:'Ciclídeos africanos', img:'1629998404468-75302f5b9f1c',
+      f:['Vêm dos lagos Malawi e Tanganica','Preferem água dura e alcalina (pH acima de 7,5)','Cores tão vivas quanto as de peixes marinhos'] },
+  ];
+  document.getElementById('cards').innerHTML = species.map(s => `
+    <div class="flip reveal" tabindex="0" role="button" aria-label="Virar card: ${s.n}">
+      <div class="in">
+        <div class="face front"><img loading="lazy" src="${IMG(s.img)}" alt="${s.n}">
+          <span class="turn" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round"><path d="M20 12a8 8 0 1 1-2.3-5.7M20 4v5h-5"/></svg></span>
+          <div class="txt"><small>${s.k}</small><h3>${s.n}</h3></div></div>
+        <div class="face back"><small>${s.k}</small><h3>${s.n}</h3>
+          <ul>${s.f.map(x => `<li>${x}</li>`).join('')}</ul>
+          <div class="ask"><a class="btn btn-wa btn-sm" target="_blank" rel="noopener" href="${waLink(`Olá, Aquatic's! Vocês têm ${s.n} disponível? 🐠`)}" onclick="event.stopPropagation()"><svg><use href="#wa"/></svg>Tem disponível?</a></div>
+        </div>
+      </div>
+    </div>`).join('');
+  document.querySelectorAll('.flip').forEach(f => {
+    const t = () => f.classList.toggle('on');
+    f.addEventListener('click', t);
+    f.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); t(); } });
+  });
+  observe();
+
+  /* ---------- aquarium builder ---------- */
+  const state = { tipo:'doce', tam:'m', vibe:'calmo' };
+  const REC = {
+    doce: {
+      calmo: { t:'Aquário plantado tranquilo', p:['Betta (um só)','Rasbora Galaxy','Camarões'], m:['Rasbora Galaxy','Tetra-neon','Coridoras','Otocinclus','Camarões'], g:['Acarás-disco','Tetras em cardume','Coridoras','Plantas de fundo'] },
+      cor:   { t:'Comunitário cheio de cor', p:['Guppys','Platys','Tetra-neon','Coridoras'], m:['Guppys','Platys','Molinésias','Tetras','Coridoras'], g:['Ciclídeos africanos','Cascudos','Botias-palhaço'] },
+      star:  { t:'Um peixe estrela', p:['Betta macho','Plantas naturais'], m:['Casal de acarás-bandeira','Cardume de tetras'], g:['Oscar','Flowerhorn','Aruanã (para aquários bem grandes)'] },
+    },
+    mar: {
+      calmo: { t:'Marinho tranquilo', p:['Gobies','Camarão Lysmata','Rochas vivas'], m:['Peixe-palhaço (casal)','Gobies','Camarão Lysmata','Ermitões'], g:['Peixe-palhaço','Cardume de cromis','Camarão Lysmata','Corais moles'] },
+      cor:   { t:'Recife colorido', p:['Peixe-palhaço','Camarão Lysmata'], m:['Peixe-palhaço','Donzelas','Gramma loreto','Camarão Lysmata'], g:['Cirurgião-patela','Peixe-palhaço','Anthias','Corais'] },
+      star:  { t:'Marinho com destaque', p:['Casal de peixes-palhaço'], m:['Peixe-palhaço + anêmona','Camarão Lysmata'], g:['Cirurgião-amarelo','Peixe-anjo anão','Camarão Lysmata'] },
+    },
+    lago: {
+      calmo: { t:'Lago sereno', p:['Kinguios','Plantas flutuantes'], m:['Kinguios','Carpas pequenas','Ninfeias'], g:['Carpas koi','Kinguios','Ninfeias'] },
+      cor:   { t:'Lago colorido', p:['Kinguios variados'], m:['Kinguios cometa','Carpas coloridas'], g:['Carpas koi de várias cores','Kinguios cometa'] },
+      star:  { t:'Lago de carpas koi', p:['Kinguios (koi precisam de mais espaço)'], m:['Carpas koi jovens'], g:['Carpas koi','Filtro biológico reforçado'] },
+    }
+  };
+  const KIT = {
+    doce: { p:'Aquário até 40 L, filtro hang-on, aquecedor, iluminação LED, substrato fértil', m:'Aquário 60–150 L, filtro externo ou hang-on, aquecedor com termostato, LED, condicionador de água', g:'Aquário 200 L+, filtro canister, aquecedor duplo, LED potente, testes de água' },
+    mar:  { p:'Nano reef, filtro, sal marinho, densímetro, rocha viva', m:'Aquário 60–150 L, sump ou filtro, skimmer, bomba de circulação, sal marinho, testes', g:'Aquário 200 L+, sump, skimmer, bombas de circulação, iluminação para corais, testes completos' },
+    lago: { p:'Tanque pequeno, bomba com filtro, plantas aquáticas', m:'Lago/tanque, filtro biológico, bomba, UV, plantas', g:'Lago grande, filtro biológico de alta vazão, UV, bomba, aeração' },
+  };
+  const TAM = { p:'até 40 L', m:'60 a 150 L', g:'200 L ou mais' };
+  const TIPO = { doce:'água doce', mar:'marinho', lago:'lago/tanque' };
+  const res = document.getElementById('res');
+  function render() {
+    const r = REC[state.tipo][state.vibe];
+    const list = r[state.tam] || r.m || r.p;
+    const msg = `Olá, Aquatic's! Montei uma ideia no site 🐠\n• Tipo: ${TIPO[state.tipo]}\n• Tamanho: ${TAM[state.tam]}\n• Estilo: ${r.t}\n• Peixes: ${list.join(', ')}\nPodem me ajudar a montar?`;
+    res.innerHTML = `<small>Sugestão para ${TIPO[state.tipo]} · ${TAM[state.tam]}</small>
+      <h3>${r.t}</h3>
+      <div class="chips">${list.map((x,i) => `<span class="chip" style="animation-delay:${i*.07}s">${x}</span>`).join('')}</div>
+      <div class="kit"><b>Kit básico</b>${KIT[state.tipo][state.tam]}.</div>
+      <div class="kit" style="font-size:.86rem;opacity:.8">É um ponto de partida. A equipe confirma a compatibilidade e a quantidade certa para o seu aquário.</div>
+      <div class="cta-row"><a class="btn btn-wa" target="_blank" rel="noopener" href="${waLink(msg)}"><svg><use href="#wa"/></svg>Mandar essa lista para a loja</a></div>`;
+    miniFish(list.length + (state.tam === 'g' ? 4 : state.tam === 'm' ? 2 : 0));
+  }
+  document.querySelectorAll('.opts').forEach(g => g.addEventListener('click', e => {
+    const b = e.target.closest('.opt'); if (!b) return;
+    g.querySelectorAll('.opt').forEach(o => o.classList.toggle('sel', o === b));
+    state[g.dataset.q] = b.dataset.v; render();
+  }));
+
+  /* ---------- fish drawing ---------- */
+  const PAL = ['#E3AA5C','#F5CF8E','#38C7E8','#7FE0F4','#FF7B5C','#FFFFFF'];
+  function drawFish(ctx, f) {
+    ctx.save(); ctx.translate(f.x, f.y); ctx.rotate(Math.atan2(f.vy, f.vx));
+    const s = f.s, w = Math.sin(f.ph) * .35;
+    ctx.fillStyle = f.c; ctx.globalAlpha = f.a;
+    ctx.beginPath(); ctx.moveTo(-s*.9, 0);
+    ctx.lineTo(-s*1.6, -s*.55 + w*s*.4); ctx.lineTo(-s*1.6, s*.55 + w*s*.4); ctx.closePath(); ctx.fill();
+    ctx.beginPath(); ctx.ellipse(0, 0, s, s*.45, 0, 0, Math.PI*2); ctx.fill();
+    ctx.fillStyle = '#04101F'; ctx.beginPath(); ctx.arc(s*.55, -s*.08, s*.09 + .6, 0, Math.PI*2); ctx.fill();
+    ctx.restore();
+  }
+
+  /* ---------- hero tank ---------- */
+  const cv = document.getElementById('tank'), ctx = cv.getContext('2d');
+  let W, H, DPR, fish = [], food = [], bub = [], pointer = { x:-999, y:-999, t:0 };
+  function size() {
+    DPR = Math.min(2, devicePixelRatio || 1);
+    W = cv.clientWidth; H = cv.clientHeight; cv.width = W*DPR; cv.height = H*DPR; ctx.setTransform(DPR,0,0,DPR,0,0);
+  }
+  function spawn() {
+    const n = W < 700 ? 18 : 46;
+    fish = Array.from({ length:n }, (_, i) => {
+      const big = i % 9 === 0;
+      return { x:W*(W<700?.2:.55) + Math.random()*W*(W<700?.7:.4), y:(W<700?H*.8:H*.25) + Math.random()*H*(W<700?.12:.5), vx:(Math.random()-.5)*2, vy:(Math.random()-.5)*.6,
+        s: big ? 13 + Math.random()*4 : 5 + Math.random()*4, c: PAL[i % PAL.length], a: big ? .95 : .75 + Math.random()*.2, ph: Math.random()*6 };
+    });
+    bub = Array.from({ length:18 }, () => ({ x:Math.random()*W, y:Math.random()*H, r:1.5+Math.random()*3.5, v:.3+Math.random()*.8 }));
+  }
+  function tick() {
+    ctx.clearRect(0, 0, W, H);
+    // bubbles
+    ctx.strokeStyle = 'rgba(191,241,251,.45)'; ctx.lineWidth = 1.2;
+    for (const b of bub) { b.y -= b.v; b.x += Math.sin(b.y/30)*.3; if (b.y < -10) { b.y = H + 10; b.x = Math.random()*W; }
+      ctx.beginPath(); ctx.arc(b.x, b.y, b.r, 0, Math.PI*2); ctx.stroke(); }
+    // food
+    for (let i = food.length-1; i >= 0; i--) { const p = food[i]; p.vy = Math.min(p.vy + .02, .9); p.y += p.vy; p.x += Math.sin(p.y/14 + p.o)*.4; p.life--;
+      if (p.y > H - 70 || p.life < 0) { food.splice(i,1); continue; }
+      ctx.fillStyle = p.c; ctx.beginPath(); ctx.arc(p.x, p.y, p.r, 0, Math.PI*2); ctx.fill(); }
+    // fish (simple boids)
+    for (const f of fish) {
+      let ax = 0, ay = 0, cx = 0, cy = 0, vx = 0, vy = 0, n = 0;
+      for (const o of fish) { if (o === f) continue; const dx = o.x - f.x, dy = o.y - f.y, d2 = dx*dx + dy*dy;
+        if (d2 < 3600) { cx += o.x; cy += o.y; vx += o.vx; vy += o.vy; n++; if (d2 < 300) { ax -= dx*.02; ay -= dy*.02; } } }
+      if (n) { ax += (cx/n - f.x)*.0009 + (vx/n - f.vx)*.04; ay += (cy/n - f.y)*.0009 + (vy/n - f.vy)*.04; }
+      // chase food
+      let best = null, bd = 1e9; for (const p of food) { const d = (p.x-f.x)**2 + (p.y-f.y)**2; if (d < bd) { bd = d; best = p; } }
+      if (best && bd < 160000) { ax += (best.x - f.x)*.0016; ay += (best.y - f.y)*.0016; if (bd < (f.s+4)**2) food.splice(food.indexOf(best),1); }
+      // flee pointer briefly
+      const pdx = f.x - pointer.x, pdy = f.y - pointer.y, pd = pdx*pdx + pdy*pdy;
+      if (pd < 9000 && performance.now() - pointer.t < 1500 && !best) { ax += pdx*.004; ay += pdy*.004; }
+      // drift toward an open area so the school doesn't cover the headline
+      const hx = W < 700 ? W*.55 : W*.74, hy = W < 700 ? H*.86 : H*.5, rx = W < 700 ? W*.4 : W*.2, ry = W < 700 ? H*.06 : H*.28;
+      if (!best) { const ox = (f.x - hx)/rx, oy = (f.y - hy)/ry; if (ox*ox + oy*oy > 1) { ax -= (f.x - hx)*.00045; ay -= (f.y - hy)*.0009; } }
+      // bounds
+      if (f.y < H*.12) ay += .05; if (f.y > H - 110) ay -= .06; if (f.x < 30) ax += .06; if (f.x > W - 30) ax -= .06;
+      f.vx += ax; f.vy += ay;
+      const sp = Math.hypot(f.vx, f.vy), max = best ? 3.2 : 1.9, min = .7;
+      if (sp > max) { f.vx *= max/sp; f.vy *= max/sp; } else if (sp < min) { f.vx *= min/sp; f.vy *= min/sp; }
+      f.vy *= .985; f.x += f.vx; f.y += f.vy; f.ph += .18 + sp*.08;
+      drawFish(ctx, f);
+    }
+    if (heroVisible) requestAnimationFrame(tick); else running = false;
+  }
+  let heroVisible = true, running = false;
+  const start = () => { if (!running && !reduce) { running = true; requestAnimationFrame(tick); } };
+  new IntersectionObserver(([e]) => { heroVisible = e.isIntersecting; if (heroVisible) start(); }).observe(cv);
+  const hint = document.getElementById('feedHint');
+  function drop(x, y) {
+    for (let i = 0; i < 9; i++) food.push({ x:x + (Math.random()-.5)*40, y:y + (Math.random()-.5)*16, vy:Math.random()*.3, r:1.6+Math.random()*1.8, o:Math.random()*6, life:900, c: i%3 ? '#E3AA5C' : '#C9733A' });
+    hint.style.opacity = 0;
+  }
+  const local = e => { const r = cv.getBoundingClientRect(); return { x:e.clientX - r.left, y:e.clientY - r.top }; };
+  cv.addEventListener('pointerdown', e => { const p = local(e); drop(p.x, p.y); });
+  cv.addEventListener('pointermove', e => { const p = local(e); pointer = { ...p, t:performance.now() }; });
+  addEventListener('resize', () => { size(); });
+  size(); spawn(); start();
+  if (reduce) { ctx.clearRect(0,0,W,H); fish.forEach(f => drawFish(ctx, f)); }
+
+  /* ---------- mini tank in builder ---------- */
+  const mc = document.getElementById('mini'), mx = mc.getContext('2d'); let mf = [], mRun = false, mVis = false;
+  function msize() { const r = mc.getBoundingClientRect(); mc.width = r.width*DPR; mc.height = r.height*DPR; mx.setTransform(DPR,0,0,DPR,0,0); }
+  function miniFish(n) {
+    msize(); const r = mc.getBoundingClientRect();
+    while (mf.length < n) mf.push({ x:Math.random()*r.width, y:r.height*.55 + Math.random()*r.height*.4, vx:(Math.random()<.5?-1:1)*(.4+Math.random()*.6), vy:0, s:6+Math.random()*6, c:PAL[mf.length%PAL.length], a:.35, ph:Math.random()*6 });
+    mf.length = n;
+    if (!mRun && mVis && !reduce) { mRun = true; requestAnimationFrame(mtick); }
+  }
+  function mtick() {
+    const r = mc.getBoundingClientRect(); mx.clearRect(0,0,r.width,r.height);
+    for (const f of mf) { f.x += f.vx; f.vy = Math.sin(f.ph*.2)*.25; f.y += f.vy; f.ph += .2;
+      if (f.x < -20) f.x = r.width + 20; if (f.x > r.width + 20) f.x = -20; drawFish(mx, f); }
+    if (mVis) requestAnimationFrame(mtick); else mRun = false;
+  }
+  new IntersectionObserver(([e]) => { mVis = e.isIntersecting; if (mVis && !mRun && !reduce) { mRun = true; requestAnimationFrame(mtick); } }).observe(mc);
+  render();
+
+  /* ---------- section bubbles ---------- */
+  const bb = document.getElementById('bubbles');
+  if (!reduce) for (let i = 0; i < 14; i++) { const b = document.createElement('i'), s = 6 + Math.random()*16;
+    b.style.cssText = `left:${Math.random()*100}%;width:${s}px;height:${s}px;animation-duration:${10+Math.random()*12}s;animation-delay:${-Math.random()*20}s;--dx:${(Math.random()-.5)*80}px`; bb.appendChild(b); }
+
+  /* ---------- before/after ---------- */
+  const cmp = document.getElementById('compare'), rng = cmp.querySelector('input'), cw = cmp.querySelector('.clean-wrap'), hd = cmp.querySelector('.handle');
+  const setCmp = v => { cw.style.clipPath = `inset(0 0 0 ${v}%)`; hd.style.left = v + '%'; };
+  rng.addEventListener('input', () => setCmp(rng.value));
+  // little auto-demo the first time it shows up
+  new IntersectionObserver(([e], o) => { if (!e.isIntersecting || reduce) return; o.disconnect();
+    let t0 = performance.now(); const a = t => { const p = Math.min(1,(t-t0)/1800), v = 50 + Math.sin(p*Math.PI*2)*28*(1-p); setCmp(v); rng.value = v; if (p<1) requestAnimationFrame(a); }; requestAnimationFrame(a);
+  }, { threshold:.5 }).observe(cmp);
+
+  /* ---------- depth gauge ---------- */
+  const gauge = document.getElementById('gauge'), track = document.getElementById('track'), gfish = document.getElementById('gfish'), depth = document.getElementById('depth');
+  for (let i = 0; i <= 10; i++) { const t = document.createElement('span'); t.className = 'tick'; t.style.top = i*10 + '%'; track.appendChild(t); }
+  function onScrollGauge() {
+    const max = document.documentElement.scrollHeight - innerHeight, p = Math.max(0, Math.min(1, scrollY / max));
+    gfish.style.top = (p*100) + '%'; depth.textContent = Math.round(p*41) + ' m';
+    gauge.classList.toggle('on', scrollY > innerHeight*.6);
+  }
+
+  /* ---------- mascot ---------- */
+  const peek = document.getElementById('peek'), say = document.getElementById('say');
+  const lines = ['Oi! Eu sou a Aru 🐟','Já conhece os ciclídeos africanos?','Toque no peixe de cima pra alimentar 😋','Aquário turvo? A gente faz manutenção!','Monte seu aquário ali em cima 👆','Chegou peixe novo essa semana!'];
+  let li = 0, sayT;
+  const talk = (txt, ms = 2600) => { say.textContent = txt; say.classList.add('on'); clearTimeout(sayT); sayT = setTimeout(() => say.classList.remove('on'), ms); };
+  const poke = () => { peek.classList.remove('jump'); void peek.offsetWidth; peek.classList.add('jump'); li = (li + 1) % lines.length; talk(lines[li]); };
+  peek.addEventListener('click', poke);
+  peek.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); poke(); } });
+  let greeted = false, endSaid = false;
+  function onScrollPeek() {
+    const show = scrollY > innerHeight*.9; peek.classList.toggle('on', show);
+    if (show && !greeted) { greeted = true; setTimeout(() => talk(lines[0]), 700); }
+    const nearEnd = scrollY + innerHeight > document.documentElement.scrollHeight - 300;
+    if (nearEnd && !endSaid) { endSaid = true; talk('Te espero na loja! 💙', 3200); }
+  }
+
+  /* ---------- copy ---------- */
+  const toast = document.getElementById('toast');
+  document.getElementById('copy').addEventListener('click', async () => {
+    const txt = "Aquatic's Peixes Ornamentais — R. Cel. Teófilo Leme, 479, Centro, Bragança Paulista - SP, 12900-005";
+    try { await navigator.clipboard.writeText(txt); } catch (e) { const t = document.createElement('textarea'); t.value = txt; document.body.appendChild(t); t.select(); document.execCommand('copy'); t.remove(); }
+    toast.classList.add('on'); setTimeout(() => toast.classList.remove('on'), 1800);
+  });
+
+  const onScroll = () => { onScrollNav(); onScrollGauge(); onScrollPeek(); };
+  addEventListener('scroll', onScroll, { passive:true }); onScroll();
+})();
+</script>
+</body>
+</html>
